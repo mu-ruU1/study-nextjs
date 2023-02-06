@@ -2,7 +2,7 @@
   "name": "kc3hack_B",
   "dockerComposeFile": "./docker-compose.yaml",
   "service": "app",
-  "workspaceFolder": "/home/node/app",
+  "workspaceFolder": "/home/node/app/src",
 
   "customizations": {
     "vscode": {
