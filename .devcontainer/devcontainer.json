@@ -1,0 +1,31 @@
+{
+  "name": "kc3hack_B",
+  "dockerComposeFile": "./docker-compose.yaml",
+  "service": "app",
+  "workspaceFolder": "/home/node/app",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "xabikos.JavaScriptSnippets",
+        "formulahendry.auto-rename-tag",
+        "formulahendry.auto-close-tag",
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "VisualStudioExptTeam.vscodeintellicode",
+        "dsznajder.es7-react-js-snippets",
+        "toba.vsfire",
+        "PulkitGangwar.nextjs-snippets",
+        "foxundermoon.next-js"
+      ]
+    }
+  },
+
+  "forwardPorts": [3000],
+
+  // Use 'postCreateCommand' to run commands after the container is created.
+  // "postCreateCommand": "docker --version",
+
+  // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+  "remoteUser": "node"
+}
