@@ -1,0 +1,2 @@
+- [npx create-next-app@latest](https://nextjs.org/docs#automatic-setup)
+- [Parsing error: Cannot find module 'next/babel'](https://zenn.dev/shimotaroo/articles/c8f2e751cd7877)
